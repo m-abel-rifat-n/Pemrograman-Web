@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Border Kotak dengan Gambar di Pojok Kanan Atas</title>
+    <style>
+        .border-kotak {
+            position: relative;
+            width: 480px;
+            height: 280px;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 0 auto; 
+            text-align: center; 
+            background-color: #add8e6; 
+            background-image: linear-gradient(to bottom right, #b8e9fa, #0f6fcf); 
+        }
+
+        .gambar-kanan-atas {
+            position: absolute;
+            top: 80px; 
+            right: 30px; 
+            width: 120px; 
+            height: 140px; 
+        }
+
+        .teks1 {
+            position: absolute;
+            font-size: 14px;
+            top: 85px; /* Ubah nilai top menjadi 2px untuk menghindari tumpang tindih dengan gambar */
+            left: 19px; /* Ubah nilai left menjadi 1px */
+            text-align: left; /* Teks menjadi rata kiri */
+        }
+
+        .teks2 {
+            position: absolute;
+            font-size: 14px;
+            bottom:90px; /* Atur jarak dari bawah */
+            left: 26%;
+            text-align: left; 
+            transform: translateX(-50%); 
+        }
+
+        .teks3 {
+            position: absolute;
+            font-size: 14px;
+            bottom: 20px;
+            text-align: left;
+        }
+        .teks-NIK {
+            position: absolute;
+            font-size: 16px;
+            top: 60px; /* Ubah nilai top menjadi 2px untuk menghindari tumpang tindih dengan gambar */
+            text-align: left; /* Teks menjadi rata kiri */
+        }
+
+           .header {
+            font-size: 22px; /* Ukuran teks header */
+            font-weight: bold; /* Teks menjadi tebal */
+            margin-top:-5px; /* Atur jarak atas */
+        }
+
+        
+            .
+    </style>
+</head>
+<body>
+    <div class="border-kotak">
+        <img src="img/Pasca foto Animation.jpg" alt="Gambar" class="gambar-kanan-atas">
+        <h1 class="header">PROVINSI JAWA TIMUR<br>KABUPATEN MALANG</h1>
+        <p class="teks-NIK">NIK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 3583746192830176</p>
+        <p class="teks1">Nama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Abel<br>Tempat/Tgl Lahir&nbsp;: Malang<br>Jenis Kelamin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Laki-laki<br>Alamat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: JL.Simpang Piranha Atas</p>
+        <p class="teks2">RT/RW&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 05/02<br>Kel/Desa&nbsp;&nbsp;&nbsp;&nbsp;: Tunjung Sekar<br>Kecamatan&nbsp;: Lowokwaru</p>
+        <p class="teks3">Agama&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Islam<br>Status Perkawinan&nbsp;: BELUM KAWIN<br>Pekerjaan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: PELAJAR/MAHASISWA<br>Kewarganegaraan&nbsp;&nbsp;: WNI</p>
+    </div>
+</body>
+</html>

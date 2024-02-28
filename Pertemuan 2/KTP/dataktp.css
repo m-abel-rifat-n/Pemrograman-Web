@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table {
+    text-align: center;
+}
+
+.center {
+    width: 10%;
+    max-width: 150px; /* Max width of the centered content */
+}
